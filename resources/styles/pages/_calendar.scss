@@ -1,0 +1,62 @@
+.calendar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    &__box{
+        border: 1px red solid;
+        width: 250px;
+        height: 400px;
+        margin: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__day{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.897);
+            border-radius: 30px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        &__hours{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.733);
+            border-radius: 30px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        &__game{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.733);
+            border-radius: 30px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+.detroit{
+    background-image: url('/dist/assets/img/Detroit-Become-Human-PC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dbd{
+    background-image: url('/dist/assets/img/dbd-wesker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.off{
+    background-image: url('/dist/assets/img/off.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sw{
+    background-image: url('/dist/assets/img/sw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,188 @@
+.contact{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.contactForm{
+    background-color: rgb(253, 252, 250);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(177, 177, 177);
+}
+.contentPosition{
+    padding-left: 8px;
+    padding-bottom: 10px;
+
+    &__pad{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+.containerContact {
+    max-width:500px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+.contactButton{
+    display: flex;
+    justify-content: center;
+}
+#contact-submit{
+    border-radius: 15px;
+}
+#title6{
+    text-align: center;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Montserrat", Helvetica, Arial, sans-serif; }
+
+#contact {
+    padding:25px;
+    margin:50px 0;
+    border-radius: 20px;
+}
+
+#contact h3 {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif, 'Cinzel', serif;
+
+}
+
+#contact h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif, 'Cinzel', serif;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width:100%;
+    border: none;
+    background:#FFF;
+    margin:0 0 10px;
+    padding: 15px;
+}
+
+// #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+//     -webkit-transition:border-color 0.3s ease-in-out;
+//     -moz-transition:border-color 0.3s ease-in-out;
+//     transition:border-color 0.3s ease-in-out;
+//     border:1px solid #AAA;
+// }
+
+#contact textarea {
+    height:150px;
+    max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    width: 60%;
+    border:none;
+    background:rgb(255, 222, 173);
+    color:rgb(0, 0, 0);
+    margin:0 0 5px;
+    padding:10px;
+    font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background:rgb(223, 145, 44);
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .containerContact {
+        max-width:300px;
+        }
+}
+
+@media only screen and (min-width: 910px) {
+    .contactForm{
+        width: 900px;
+    }
+    .formu{
+        display: flex;
+        flex-direction: column;
+
+        &__block{
+            display: flex;
+            flex-direction: column;
+
+            &__espace{
+                padding: 10px;
+            }
+        }
+        &__saisi{
+            width: 300px;
+        }
+        &__content{
+            display: flex;
+            justify-content: space-around;
+        }
+        &__50{
+            width: 50%;
+        }
+    }
+    .contentPosition{
+
+        &__pad{
+            padding-left: 80px;
+            padding-bottom: 10px;
+        }
+        &__center{
+            text-align: center;
+            padding-top: 10px;
+        }
+        &__marbot{
+            margin-bottom: 15px;
+        }
+
+    }
+}
+.fond{
+    background-color: rgb(203, 224, 182);
+    border-radius: 30px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
