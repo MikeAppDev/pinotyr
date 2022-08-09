@@ -5,17 +5,11 @@
 - Avoir installé <b>git</b>
 - Avoir installé <b>npm</b>
 ## Installation
-1. Clonez le projet sur votre machine :
-```shell
-$ git clone -b webpack-php ssh://git@git.webedia-group.net:8080/brand-experience/ops-skeleton.git
-```
-2. Renommez le dossier du starter par celui de votre projet. exemple : <b>ops-skeleton => mon-ops-2021</b>
-
-3. Allez à la racine du projet et installez les dépendances node_modules : 
+1. Allez à la racine du projet et installez les dépendances node_modules : 
 ```shell
 $ npm install
 ```
-4. Builder le projet une première fois
+2. Builder le projet une première fois
 ```shell
 $ npm run build:prod
 ```
