@@ -9,10 +9,10 @@ require_once('../inc/nav.php');
             <div class="calendar">
                 <div class="calendar__box detroit">
                     <div class="calendar__box__day">
-                        <p>Lundi</p>
+                        <p>LUNDI</p>
                     </div>
                     <div class="calendar__box__hours">
-                        <p>21h-21h30</p>
+                        <p>de 21h à 23h00</p>
                     </div>
                     <div class="calendar__box__game">
                         <p>Detroit: Become Human</p>
@@ -20,10 +20,10 @@ require_once('../inc/nav.php');
                 </div>
                 <div class="calendar__box dbd">
                     <div class="calendar__box__day">
-                        <p>Mardi</p>
+                        <p>MARDI</p>
                     </div>
                     <div class="calendar__box__hours">
-                        <p>21h-21h30</p>
+                        <p>de 21h à 23h00</p>
                     </div>
                     <div class="calendar__box__game">
                         <p>Dead By Daylight</p>
@@ -31,28 +31,28 @@ require_once('../inc/nav.php');
                 </div>
                 <div class="calendar__box off">
                     <div class="calendar__box__day">
-                        <p>Mercedi</p>
+                        <p>MERCREDI</p>
                     </div>
                     <div class="calendar__box__hours">
                     </div>
                 </div>
                 <div class="calendar__box sw">
                     <div class="calendar__box__day">
-                        <p>Jeudi</p>
+                        <p>JEUDI</p>
                     </div>
                     <div class="calendar__box__hours">
-                        <p>21h-21h30</p>
+                        <p>de 21h à 23h00</p>
                     </div>
                     <div class="calendar__box__game">
-                        <p>summoners war: sky arena</p>
+                        <p>Summoners War: Sky Arena</p>
                     </div>
                 </div>
                 <div class="calendar__box dbd">
                     <div class="calendar__box__day">
-                        <p>Vendredi</p>
+                        <p>VENDREDI</p>
                     </div>
                     <div class="calendar__box__hours">
-                        <p>21h-21h30</p>
+                        <p>de 21h à 23h00</p>
                     </div>
                     <div class="calendar__box__game">
                         <p>Dead By Daylight</p>
@@ -60,17 +60,17 @@ require_once('../inc/nav.php');
                 </div>
                 <div class="calendar__box off">
                     <div class="calendar__box__day">
-                        <p>Samedi</p>
+                        <p>SAMEDI</p>
                     </div>
                     <div class="calendar__box__hours">
                     </div>
                 </div>
                 <div class="calendar__box detroit">
                     <div class="calendar__box__day">
-                        <p>dimanche</p>
+                        <p>DIMANCHE</p>
                     </div>
                     <div class="calendar__box__hours">
-                        <p>21h-21h30</p>
+                        <p>de 21h à 23h00</p>
                     </div>
                     <div class="calendar__box__game">
                         <p>Detroit: Become Human</p>

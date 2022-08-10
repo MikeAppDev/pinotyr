@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -541,6 +542,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   width: 100%;
   padding: 10px; }
@@ -1250,29 +1252,35 @@ fieldset {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Roboto Condensed', sans-serif; }
   .calendar__box {
-    border: 1px red solid;
     width: 250px;
     height: 400px;
     margin: 2px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .calendar__box__day {
       display: flex;
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.897);
-      border-radius: 30px;
+      border-radius: 20px;
       margin-top: 2px;
-      margin-bottom: 2px; }
+      margin-bottom: 20px;
+      width: 220px;
+      font-size: 20px;
+      box-shadow: 5px 7px 12px black; }
     .calendar__box__hours {
       display: flex;
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.733);
-      border-radius: 30px;
+      border-radius: 20px;
       margin-top: 2px;
-      margin-bottom: 2px; }
+      margin-bottom: 2px;
+      width: 120px;
+      box-shadow: 5px 7px 12px black; }
     .calendar__box__game {
       display: flex;
       justify-content: center;
@@ -1280,7 +1288,10 @@ fieldset {
       background-color: rgba(255, 255, 255, 0.733);
       border-radius: 30px;
       margin-top: 2px;
-      margin-bottom: 2px; }
+      margin-bottom: 2px;
+      width: 180px;
+      font-size: 20px;
+      box-shadow: 5px 7px 12px black; }
 
 .detroit {
   background-image: url("/dist/assets/img/Detroit-Become-Human-PC.jpg");
@@ -1301,4 +1312,68 @@ fieldset {
   background-image: url("/dist/assets/img/sw.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.palier-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 50px; }
+  .palier-box__title {
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .palier-box__title__left {
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      text-align: center;
+      padding: 10px;
+      margin-right: 25px; }
+    .palier-box__title__right {
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      text-align: center;
+      padding: 10px;
+      margin-left: 25px; }
+  .palier-box__line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%; }
+    .palier-box__line__but {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 170px;
+      height: 60px;
+      background-color: aquamarine;
+      border-radius: 20px;
+      padding: 10px;
+      margin-right: 20px; }
+    .palier-box__line__defi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      width: 170px;
+      height: 100px;
+      background-color: #fff6eb;
+      border-radius: 10px;
+      padding: 10px;
+      margin-left: 20px; }
+
+.red {
+  background-color: #f87a7a; }
+
+.green-text {
+  color: green; }
+
+.orange-text {
+  color: #fa9536; }
 
