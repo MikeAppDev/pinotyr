@@ -77,7 +77,7 @@ require_once('../inc/nav.php');
                     </div>
                 </div>
             </div>
-                <img src="/dist/assets/img/bg.jpg" alt="img test" style="width: 100%; display: block">
+                <!-- <img src="/dist/assets/img/bg.jpg" alt="img test" style="width: 100%; display: block"> -->
 		</div>
 
 <?php

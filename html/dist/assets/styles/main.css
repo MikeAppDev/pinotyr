@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -488,24 +489,24 @@ ul {
 
 /* themes */
 body {
-  background-color: #e2f3f9; }
+  background-color: #000000; }
 
 /* Layout */
-.header {
-  background-color: black;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  color: green;
-  width: 100%;
-  height: 150px; }
-  @media only screen and (min-width: 768px) {
-    .header {
-      color: white;
-      padding: 20px 78px;
-      height: 250px; } }
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    width: 100%;
+    color: white;
+    padding: 20px 78px;
+    height: 250px;
+    background-image: url("/dist/assets/img/ban-top.png");
+    background-repeat: no-repeat;
+    background-size: contain; } }
 
 .footer {
   background-color: #000000;
@@ -515,7 +516,8 @@ body {
   width: 100%;
   height: 150px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-family: 'Bebas Neue', cursive; }
   @media only screen and (min-width: 768px) {
     .footer {
       color: white;
@@ -524,12 +526,30 @@ body {
 
 .block {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center; }
   .block__link {
-    display: flex; }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 30px; }
+    .block__link__navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      font-size: 20px; }
+  .block__link-reseau {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    @media only screen and (min-width: 768px) {
+      .block__link-reseau {
+        flex-direction: row;
+        font-size: 20px; } }
   .block__item {
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -551,7 +571,7 @@ body {
     @media only screen and (min-width: 768px) {
       .nav__item {
         padding: 2px;
-        font-size: 20px; } }
+        font-size: 30px; } }
     .nav__item:hover {
       color: #ef895e; }
     .nav__item__active {
@@ -564,13 +584,14 @@ a:active {
   color: blue; }
 
 .navbar {
-  background-color: #293241;
+  background-color: black;
   display: flex;
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 10px; }
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive; }
   @media only screen and (min-width: 768px) {
     .navbar {
       justify-content: center; } }
@@ -579,7 +600,9 @@ a:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px; }
+  gap: 40px;
+  margin-bottom: 0;
+  margin-top: 0; }
 
 .nav-branding {
   font-size: 2rem; }
@@ -779,6 +802,30 @@ fieldset {
 
 /* Components */
 /* Pages */
+.wrapper {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .wrapper {
+      display: block; } }
+
+.wrapper-mobil {
+  display: block;
+  color: white;
+  font-family: 'Bebas Neue', cursive; }
+  .wrapper-mobil__twitch {
+    background-image: url("/dist/assets/img/twitch-mobil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px; }
+  .wrapper-mobil__youtube {
+    background-image: url("/dist/assets/img/youtube-mobil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px; }
+  @media only screen and (min-width: 640px) {
+    .wrapper-mobil {
+      display: none; } }
+
 .root {
   width: 12px; }
 
@@ -1253,7 +1300,7 @@ fieldset {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Bebas Neue', cursive; }
   .calendar__box {
     width: 250px;
     height: 400px;
@@ -1318,27 +1365,32 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   margin-bottom: 50px; }
   .palier-box__title {
-    color: black;
+    color: white;
     padding: 10px;
     margin-bottom: 20px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-size: 20px; }
     .palier-box__title__left {
+      color: white;
       display: flex;
       justify-content: center;
       width: 150px;
       text-align: center;
       padding: 10px;
-      margin-right: 25px; }
+      margin-right: 25px;
+      font-size: 20px; }
     .palier-box__title__right {
+      color: white;
       display: flex;
       justify-content: center;
       width: 150px;
       text-align: center;
       padding: 10px;
-      margin-left: 25px; }
+      margin-left: 25px;
+      font-size: 20px; }
   .palier-box__line {
     display: flex;
     justify-content: center;
@@ -1351,7 +1403,7 @@ fieldset {
       align-items: center;
       width: 170px;
       height: 60px;
-      background-color: aquamarine;
+      background-color: #cef0e4;
       border-radius: 20px;
       padding: 10px;
       margin-right: 20px; }

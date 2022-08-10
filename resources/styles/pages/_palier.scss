@@ -4,16 +4,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     margin-bottom: 50px;
 
     &__title{
-        color: black;
+        color: white;
         padding: 10px;
         margin-bottom: 20px;
         margin-top: 20px;
         // border: 1px red solid;
+        font-size: 20px;
         &__left{
+            color: white;
             display: flex;
             justify-content: center;
             width: 150px;
@@ -21,8 +23,10 @@
             // border: 1px red solid;
             padding: 10px;
             margin-right: 25px;
+            font-size: 20px;
         }
         &__right{
+            color: white;
             display: flex;
             justify-content: center;
             width: 150px;
@@ -30,6 +34,7 @@
             // border: 1px red solid;
             padding: 10px;
             margin-left: 25px;
+            font-size: 20px;
         }
     }
     &__line{
@@ -44,7 +49,7 @@
             align-items: center;
             width: 170px;
             height: 60px;
-            background-color: aquamarine;
+            background-color: rgb(206, 240, 228);
             border-radius: 20px;
             padding: 10px;
             margin-right: 20px;

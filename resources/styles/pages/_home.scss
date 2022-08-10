@@ -1,3 +1,30 @@
+.wrapper{
+    display: none;
+    @include media_up($medium) {
+        display: block;
+    }
+}
+.wrapper-mobil{
+    display: block;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    &__twitch{
+        background-image: url('/dist/assets/img/twitch-mobil.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    &__youtube{
+        background-image: url('/dist/assets/img/youtube-mobil.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    @include media_up($small) {
+        display: none;
+    }
+}
+
 .root{
     width: 12px;
 }

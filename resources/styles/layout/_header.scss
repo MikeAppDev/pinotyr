@@ -1,17 +1,30 @@
 .header {
-    background-color: black;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: green;
-    width: 100%;
-    height: 150px;
-
+    // background-color: black;
+    // padding: 20px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    // color: green;
+    // width: 100%;
+    // height: 120px;
+    // background-image: url('/dist/assets/img/ban-top.png');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    
     @include media_up($medium) {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: green;
+        width: 100%;
         color: white;
         padding: 20px 78px;
         height: 250px;
+        background-image: url('/dist/assets/img/ban-top.png');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
